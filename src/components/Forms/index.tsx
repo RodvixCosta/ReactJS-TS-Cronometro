@@ -62,7 +62,7 @@ function Forms({setTarefas}: Props){
                 value={tempo}
                 onChange={event => setTempo(event.target.value)}
                 id="tempo"
-                min="00:00:00"
+                min="00:00:01"
                 max="01:30:00"
                 required
             />
